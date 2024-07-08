@@ -113,3 +113,5 @@ app.get("/about", function(req, res){
 app.listen(3000, function(req,res){
     console.log("Server is up and running on port 3000");
 });
+
+module.exports = app;
